@@ -9,7 +9,7 @@ class Scoreboard(Turtle):
         self.hideturtle()
         self.penup()
         self.speed("fastest")
-        self.level = 0
+        self.level = 1
         self.color("black")
         self.goto(TEXT_POSITION)
         self.write_level()
